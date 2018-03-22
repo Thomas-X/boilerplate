@@ -3,16 +3,23 @@
 to begin development install:
 ```
 docker
+```
+and
+```
 docker-compose
 ```
 <br/><br/>
 then build your containers:
 <br/><br/>
-`docker-compose build`
+```
+docker-compose build
+```
 <br/><br/>
 then create your containers:
 <br/><br/>
-`docker-compose up`
+```
+docker-compose up
+```
 <br/><br/>
 start editing this project and see your changes at: 
 <br/><br/>
