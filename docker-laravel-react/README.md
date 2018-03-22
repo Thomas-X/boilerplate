@@ -5,17 +5,17 @@ to begin development install:
 docker
 docker-compose
 ```
-<br/>
+<br/><br/>
 then build your containers:
-<br/>
+<br/><br/>
 `docker-compose build`
-<br/>
+<br/><br/>
 then create your containers:
-<br/>
+<br/><br/>
 `docker-compose up`
-<br/>
+<br/><br/>
 start editing this project and see your changes at: 
-<br/>
+<br/><br/>
 [frontend](http://client.localhost:8080)
-<br/>
+<br/><br/>
 [backend](http://server.localhost:8080)
