@@ -12,6 +12,11 @@ docker-compose
 then build your containers:
 <br/><br/>
 ```
+cd docker/
+```
+<br><br/>
+check if you're in the docker directory, if yes, continue, otherwise cd into it
+```
 docker-compose build
 ```
 <br/><br/>
