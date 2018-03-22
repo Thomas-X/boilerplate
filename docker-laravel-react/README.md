@@ -4,14 +4,15 @@ docker
 docker-compose
 ```
 <br/>
-then build your containers:
+then build your containers:<br/>
 ```
 docker-compose build
 ```
-then create your containers:
+then create your containers:<br/>
 ```
 docker-compose up
 ```
+<br/>
 start editing this project and see your changes at: 
 <br/>
 [frontend](http://client.localhost:8080)
