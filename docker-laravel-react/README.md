@@ -1,15 +1,17 @@
 ## dev setup
 
 to begin development install:
-```bash
+```
 docker
 docker-compose
 ```
 <br/>
-then build your containers:<br/>
-
+then build your containers:
+<br/>
 `docker-compose build`
-then create your containers:<br/>
+<br/>
+then create your containers:
+<br/>
 `docker-compose up`
 <br/>
 start editing this project and see your changes at: 
