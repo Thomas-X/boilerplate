@@ -25,9 +25,14 @@ then create your containers:
 ```
 docker-compose up
 ```
+to start the server, cd into the server directory and run
+```
+bash vessel init
+APP_PORT=8777 MYSQL_PORT=33777 ./vessel start
+```
 <br/><br/>
 start editing this project and see your changes at: 
 <br/><br/>
 [frontend](http://client.localhost:8080)
 <br/><br/>
-[backend](http://server.localhost:8080)
+[backend](http://server.localhost:8777)
