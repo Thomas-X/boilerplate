@@ -4,7 +4,6 @@ import { Field, reduxForm } from 'redux-form';
 import { ButtonGlobal } from '../components/Button';
 import { RenderField } from '../components/RenderField';
 import validations, { FORM_NAMES, FORM_VALIDATIONS } from '../services/validations';
-import { ReduxFormProps } from './typings/typings';
 import styled from 'styled-components';
 
 export const StyledForm = styled.form`
@@ -23,7 +22,7 @@ export const TopButton: any = styled(ButtonGlobal)`
     margin: 1rem 0 !important;
 `;
 
-const LoginForm: React.SFC<ReduxFormProps> = (props: ReduxFormProps) => {
+const LoginForm: React.SFC<any> = (props: any) => {
     const {handleSubmit, pristine, reset, submitting} = props;
     return (
         <StyledForm onSubmit={handleSubmit}>

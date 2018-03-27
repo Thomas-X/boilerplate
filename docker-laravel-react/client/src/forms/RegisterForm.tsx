@@ -4,10 +4,9 @@ import { reduxForm, Field } from 'redux-form';
 import { ButtonGlobal } from '../components/Button';
 import { RenderField } from '../components/RenderField';
 import validations, { FORM_VALIDATIONS, FORM_NAMES } from '../services/validations';
-import { ReduxFormProps } from './typings/typings';
 import { FlexContainer, StyledForm, TopButton } from './LoginForm';
 
-const RegisterForm = (props: ReduxFormProps) => {
+const RegisterForm = (props: any) => {
     const { handleSubmit, pristine, reset, submitting } = props;
     return (
         <StyledForm onSubmit={handleSubmit}>

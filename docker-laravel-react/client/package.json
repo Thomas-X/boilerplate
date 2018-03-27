@@ -66,8 +66,7 @@
     "typescript": "^2.7.2"
   },
   "scripts": {
-    "start": "cd ../docker && docker-compose exec laravel_laravel npm run startInternally",
-    "startInternally": "react-scripts-ts start",
+    "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
