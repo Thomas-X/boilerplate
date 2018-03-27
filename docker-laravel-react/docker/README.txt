@@ -6,6 +6,12 @@ docker-compose up
 for rebuilding the containers (if anything inside the docker folder changed):
 docker-compose build
 
+to run/restart/stop/status_check docker:
+systemctl start docker
+systemctl restart docker
+systemctl stop docker
+systemctl status docker
+
 
 ## List Docker CLI commands
 docker docker container --help
