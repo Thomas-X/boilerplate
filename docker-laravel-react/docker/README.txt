@@ -1,3 +1,12 @@
+## docker-compose specific commands:
+
+for running the containers:
+docker-compose up
+
+for rebuilding the containers (if anything inside the docker folder changed):
+docker-compose build
+
+
 ## List Docker CLI commands
 docker docker container --help
 ## Display Docker version and info
